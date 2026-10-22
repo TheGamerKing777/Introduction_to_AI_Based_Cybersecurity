@@ -19,7 +19,7 @@ As a result, they used a publicly available user credentials to hack into the we
 
 ### Sequence of Events
 
-![Sequence of Events showing how the attack was happening via a diagram.]\(Sequence\_of\_Events.svg)
+![Sequence of Events showing how the attack was happening via a diagram.](Sequence_of_Events.svg)
 
 ### MITRE ATT\&CK Mapping
 
@@ -38,4 +38,4 @@ We learned that despite there not being a malicious intent behind this event, th
 Furthermore, we learned that when creating a test harness for AI or any other type of development, one must not be complacent, and must consider what they could have missed that an AI model or user might discover and exploit to reach their end goals.
 We have also took an inspiration from this video based on the original report:
 
-[Kurzgesagt](https://www.youtube.com/watch?v=ujkD4SxPKOI\&pp=ygUTaHVnZ2luZyBmYWNlIGF0dGFja9IHCQk2DAGHKiGM7w%3D%3D) [– In a Nutshell | AI Just Crossed the Terrifying Line - Now What?](https://www.youtube.com/@kurzgesagt)
+[Kurzgesagt – In a Nutshell | AI Just Crossed the Terrifying Line - Now What?](https://www.youtube.com/watch?v=ujkD4SxPKOI\&pp=ygUTaHVnZ2luZyBmYWNlIGF0dGFja9IHCQk2DAGHKiGM7w%3D%3D)
