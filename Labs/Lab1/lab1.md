@@ -11,11 +11,15 @@
 
 ### Short Attack Summary
 
-5–10 sentences describing what happened and why it matters.
+In July 2026, the big AI company OpenAI engaged in an evaluation of the cyber security capabilities of their new LLM model.
+OpenAI has put several AI agents in a test harness that was supposed to be disconnected from the internet for their evaluation purposes.
+The agents, upon discovering via package and library uses, that there were other agents that engage in the same tasks, created a hidden communication forum in a hidden folder where they discussed ways to approach the tasks and "cheat" in order to obtain their goals.
+Through this communication forum, they have found a vulnarbility that allowed them access to the internet, where once they had the access, they found that the site Hugging Face had what they needed for their tasks.
+As a result, they used a publicly available user credentials to hack into the website and retrieve the relevant information, in order to obtain their original goals.
 
 ### Sequence of Events
 
-!\[Sequence of Events showing how the attack was happening via a diagram.]\(Sequence\_of\_Events.svg)
+![Sequence of Events showing how the attack was happening via a diagram.]\(Sequence\_of\_Events.svg)
 
 ### MITRE ATT\&CK Mapping
 
@@ -30,10 +34,8 @@
 
 ### Insights and Inspiration
 
-2-3 sentences to fill.
-
-<br />
-
+We learned that despite there not being a malicious intent behind this event, this incident proved that agentic AI models can preform cyber attacks without the correct boundaries and guidelines in place.
+Furthermore, we learned that when creating a test harness for AI or any other type of development, one must not be complacent, and must consider what they could have missed that an AI model or user might discover and exploit to reach their end goals.
 We have also took an inspiration from this video based on the original report:
 
 [Kurzgesagt](https://www.youtube.com/watch?v=ujkD4SxPKOI\&pp=ygUTaHVnZ2luZyBmYWNlIGF0dGFja9IHCQk2DAGHKiGM7w%3D%3D) [– In a Nutshell | AI Just Crossed the Terrifying Line - Now What?](https://www.youtube.com/@kurzgesagt)
