@@ -1,6 +1,6 @@
 # Cyber Threat Intelligence (CTI) Report - Hugging Face
 
-### Students
+## Students
 
 * Gilad Kogan
 * Shahar Sidon
@@ -38,4 +38,4 @@ We learned that despite there not being a malicious intent behind this event, th
 Furthermore, we learned that when creating a test harness for AI or any other type of development, one must not be complacent, and must consider what they could have missed that an AI model or user might discover and exploit to reach their end goals.
 We have also took an inspiration from this video based on the original report:
 
-[Kurzgesagt – In a Nutshell | AI Just Crossed the Terrifying Line - Now What?](https://www.youtube.com/watch?v=ujkD4SxPKOI\&pp=ygUTaHVnZ2luZyBmYWNlIGF0dGFja9IHCQk2DAGHKiGM7w%3D%3D)
+[Kurzgesagt – In a Nutshell | AI Just Crossed the Terrifying Line - Now What?](https://www.youtube.com/watch?v=ujkD4SxPKOI)
