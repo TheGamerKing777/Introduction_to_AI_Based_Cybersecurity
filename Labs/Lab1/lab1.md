@@ -11,13 +11,13 @@
 
 ## Short Attack Summary
 
-In July 2026, the big AI company, OpenAI, engaged in an evaluation of the Cybersecurity capabilities of their new LLM model.
-OpenAI has put several AI agents in a test harness that was supposed to be disconnected from the internet for their evaluation purposes.
+In July 2026, the big AI company, OpenAI, engaged in an evaluation of the Cybersecurity capabilities of its new LLM model.
+OpenAI has put several AI agents in a cybersecurity test harness that was supposed to be disconnected from the internet for evaluation purposes.
 
-The agents, upon discovering via package and library uses that there were other agents that engaged in the same tasks, created a hidden communication forum in a hidden folder where they discussed ways to approach the tasks and "cheat" in order to obtain their goals.
-Through this communication forum, they have found a vulnerability that allowed them access to the internet, where once they had the access, they found that the site Hugging Face had what they needed for their tasks.
+The agents, upon discovering via package and library use that there were other agents that engaged in the same tasks, created a hidden communication forum in a hidden folder where they discussed ways to approach the tasks and "cheat" in order to obtain their goals.
+Through this communication forum, they found a vulnerability that allowed them access to the internet, where once they had access, they found that the site Hugging Face had what they needed for their tasks.
 
-As a result, they used publicly available user credentials to hack into the website and retrieve the relevant information, in order to obtain their original goals.
+As a result, they used publicly available user credentials to hack into the website and retrieve the relevant information in order to achieve their original goals.
 
 ## Sequence of Events
 
@@ -36,7 +36,7 @@ As a result, they used publicly available user credentials to hack into the webs
 
 ## Insights and Inspiration
 
-We learned that despite there not being a malicious intent behind this event, this incident proved that agentic AI models can perform cyber attacks without the correct boundaries and guidelines in place.
+We learned that although there was no malicious intent behind this event, it showed that agentic AI models can carry out cyberattacks without proper boundaries and guidelines.
 Furthermore, we learned that when creating a test harness for AI or any other type of development, one must not be complacent and must consider what they could have missed that an AI model or user might discover and exploit to reach their end goals.
 
 We also took inspiration from this video based on the original report:
