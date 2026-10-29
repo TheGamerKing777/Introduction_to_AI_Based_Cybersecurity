@@ -1,0 +1,8 @@
+Morpheus Lite v0.3.4 Stable Lab 2b Release
+
+Functional status:
+- End-to-end normal-load run verified on Windows/Redpanda.
+- Automated tests: 14 passed.
+- Attack-surge profile and pacing validated offline.
+- Student guide finalized in docs/LAB_2B_HIGH_LOAD_STUDENT_GUIDE.md.
+- Cosmetic enhancements deferred to a later release.

@@ -1,0 +1,6 @@
+.env
+.git/
+.chainlit/
+.files/
+__pycache__/
+*.pyc

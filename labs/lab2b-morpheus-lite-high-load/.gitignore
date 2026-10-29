@@ -1,0 +1,38 @@
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Runtime and generated data
+data/*.jsonl
+outputs/*
+!outputs/.gitkeep
+logs/
+*.log
+
+# Student/dashboard CSV exports (keep curated samples)
+*.csv
+!labs/Lab2B/sample_output.csv
+!docs/validation/*.csv
+
+# Streamlit secrets and local settings
+.streamlit/secrets.toml
+
+# IDE and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment secrets
+.env
+!.env.example

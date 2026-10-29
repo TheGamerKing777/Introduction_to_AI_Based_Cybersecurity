@@ -1,0 +1,12 @@
+metric,value
+validation_type,offline profile and pacing validation (no Kafka runtime)
+profile,attack_surge
+events,1000
+configured_rate_eps,500.0
+burst_size,500
+burst_interval_seconds,1.0
+configured_attack_probability,0.65
+observed_suspicious_events,667
+observed_suspicious_ratio,0.667
+elapsed_seconds,2.0007
+effective_generation_rate_eps,499.82

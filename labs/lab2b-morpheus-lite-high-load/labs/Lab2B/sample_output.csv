@@ -1,0 +1,4 @@
+profile,run_id,elapsed_s,generated_per_s,detector_per_s,orchestrator_per_s,alert_backlog,detector_utilization_pct,orchestrator_utilization_pct,detector_queue_wait_ms,detector_processing_ms,orchestrator_queue_wait_ms,orchestrator_processing_ms,e2e_latency_ms
+normal,sample-run,0,25.0,24.8,24.5,3,68.0,61.0,5.3,28.0,4.1,25.0,62.4
+normal,sample-run,5,25.0,25.1,24.8,6,71.0,64.0,8.2,28.6,5.9,26.5,69.2
+normal,sample-run,10,25.0,25.0,25.0,0,72.0,66.0,6.0,28.4,4.8,26.1,65.3

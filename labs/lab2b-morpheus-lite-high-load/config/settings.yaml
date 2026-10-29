@@ -1,0 +1,71 @@
+app:
+  name: Morpheus Lite
+  mode: educational
+
+kafka:
+  bootstrap_servers: localhost:9092
+  auto_offset_reset: latest
+
+inference:
+  provider: ollama
+  model: llama3
+  timeout_seconds: 90
+  fallback_provider: deterministic
+  ollama_url: http://localhost:11434/api/generate
+  nim_base_url: http://localhost:8000/v1
+  nim_api_key_env: NIM_API_KEY
+  triton_url: http://localhost:8001
+  triton_model: anomaly
+  onnx_model_path: models/anomaly.onnx
+  onnx_execution_provider: auto
+
+compute:
+  backend: auto
+
+storage:
+  audit_jsonl: data/audit.jsonl
+  fingerprint_state: data/fingerprint_profiles.json
+  parquet_directory: exports
+
+observability:
+  enabled: true
+  prometheus_port: 9108
+
+
+high_load:
+  throughput_window_seconds: 5
+  metrics_jsonl: data/high_load_metrics.jsonl
+  # High-load experiments use deterministic XAI so the orchestration stage can
+  # be measured reproducibly. Lab 2a may continue using Ollama/Llama.
+  lab_xai_provider: deterministic
+  queue_capacity:
+    ingress: 500
+    alerts: 500
+  status_thresholds:
+    warning_utilization: 70
+    critical_utilization: 90
+    warning_backlog_ratio: 0.50
+    critical_backlog_ratio: 0.85
+  processing_delay_ms:
+    detector: 2
+    orchestrator: 20
+  profiles:
+    baseline:
+      events_per_second: 1
+      attack_probability: 0.12
+    normal:
+      events_per_second: 25
+      attack_probability: 0.12
+    burst:
+      events_per_second: 100
+      burst_size: 250
+      burst_interval_seconds: 2.5
+      attack_probability: 0.20
+    sustained:
+      events_per_second: 250
+      attack_probability: 0.18
+    attack_surge:
+      events_per_second: 500
+      burst_size: 500
+      burst_interval_seconds: 1.0
+      attack_probability: 0.65

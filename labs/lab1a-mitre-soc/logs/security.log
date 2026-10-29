@@ -1,0 +1,6 @@
+2026-07-11T09:00:10 INFO User student logged in successfully from 172.18.0.10
+2026-07-11T09:02:11 WARN Failed password for root from 172.18.0.5 port 44231 ssh2
+2026-07-11T09:02:14 WARN Failed password for root from 172.18.0.5 port 44232 ssh2
+2026-07-11T09:02:18 WARN Failed password for root from 172.18.0.5 port 44233 ssh2
+2026-07-11T09:04:20 INFO Network scan detected from 172.18.0.7 against ports 22,80,443,3306
+2026-07-11T09:07:33 INFO User administrator logged out
