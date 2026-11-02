@@ -18,7 +18,7 @@
 ## Original Dashboard
 We begun the lab in this state before running experiments in `security.log` file:
 
-![Original Dashboard Image](0 - Original Dashboard.jpg)
+![Original Dashboard Image](./0 - Original Dashboard.jpg)
 
 ---
 
@@ -30,7 +30,7 @@ We begun the lab in this state before running experiments in `security.log` file
 
 <ins>Result:</ins> Alert "T1110 - Brute Force" disappeared since there are less than 3 events logged.
 
-![Experiment A Dashboard](1 - Experiment A.jpg)
+![Experiment A Dashboard](./1 - Experiment A.jpg)
 
 ### B — Three failures from different IPs
 
@@ -38,7 +38,7 @@ We begun the lab in this state before running experiments in `security.log` file
 
 <ins>Result:</ins> No additional alerts, it counts for each Source IP individually.
 
-![Experiment B Dashboard](2 - Experiment B.jpg)
+![Experiment B Dashboard](./2 - Experiment B.jpg)
 
 ### C — Threshold crossing
 
@@ -46,7 +46,7 @@ We begun the lab in this state before running experiments in `security.log` file
 
 <ins>Result:</ins> Alert "T1110 - Brute Force" appears for said IP.
 
-![Experiment C Dashboard](3 - Experiment C.jpg)
+![Experiment C Dashboard](./3 - Experiment C.jpg)
 
 ### D — Add another scan
 
@@ -54,7 +54,7 @@ We begun the lab in this state before running experiments in `security.log` file
 
 <ins>Result:</ins> Alert "T1046 - Network Service Discovery" appears in findings.
 
-![Experiment D Dashboard](4 - Experiment D.jpg)
+![Experiment D Dashboard](./4 - Experiment D.jpg)
 
 ### Optional Advanced Simulator
 
@@ -62,7 +62,7 @@ We begun the lab in this state before running experiments in `security.log` file
 
 <ins>Result:</ins> After the User administrator logged in, it displayed random logs, making new findings as the rules were followed for 2 techniques loaded into the simulator.
 
-![Optional Advanced E Dashboard](5 - Optional Advanced Simulator.jpg)
+![Optional Advanced E Dashboard](./5 - Optional Advanced Simulator.jpg)
 
 ---
 
